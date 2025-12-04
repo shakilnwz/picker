@@ -1,7 +1,7 @@
 <script setup>
 import Modal from './components/Modal.vue'
 import { ref } from 'vue'
-const showModal = ref(true)
+const showModal = ref(false)
 const selected = ref(null)
 
 const openModal = () => {
